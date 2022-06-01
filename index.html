@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page with Bootrstap and SASS</title> 
+    <link href="./css/main.min.css" rel="stylesheet" >
+    
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white mb-3">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="./imagenes/logo-bookmark.svg" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                      </li>
+                     
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+        </div>
+        <div class="section mb-5">
+            <div class="row">
+                <div class="col-12 col-lg-5">
+                    <div class="section1 me-4 mb-3">
+                          <h1 class="display-4 fw-bold color-text-secondary">A Simple Bookmark Manager</h1>
+                          <p class="text">A clean and simple interface to organize your favourite websites. Open new browser tab and see your sites open instantly. Try it for free. </p>
+                          <div class="botones d-flex ">
+                          <a href="#" class="btn btn-light border border-primary border border-2 me-2 shadow-sm p-3 mb-5 bg-body rounded">Get it on Chrome</a>
+                          <a href="#" class="btn btn-light border border-primary border border-2 shadow-sm p-3 mb-5 bg-body rounded">Get it on Firefox</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-right col-12 col-lg-7 bg-primary">
+                    <img class="firstImage border border-dark border border-5 rounded-top shadow-lg p-3 mb-5 bg-body rounded"src="./imagenes/illustration-features-tab-1.svg"  alt="">
+                </div>
+
+
+            </div>
+        </div>
+        <!--ejercicio 2-->
+
+        <div class="main">
+          <div class="row mb-5">
+            <div class="col-12 col-lg-3">.</div>
+          <div class="col-12 col-lg-6">
+            <div class="display-4 fw-bold text-center mb-5" class="features">Features</div>
+            <p class="text-center" class="features-text">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmark sync between your devices so you can access them on the go.</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3">.</div>
+          <div class="row">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Simple Bookmarking</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Speedy Searching</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Easy Sharing</button>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
+              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+    
+</body>
+</html>

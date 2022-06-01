@@ -1,0 +1,39 @@
+
+$primary-color: #5265E1;
+$secondary-color: #FA5959;
+
+.navbar-nav{
+    position:absolute;
+    z-index: 1;
+    right:1rem;
+    top:1rem;
+    cursor: pointer;
+    padding-right: 20px;
+}
+.nav-link{
+    padding-right: 10px;
+    
+    &:hover{
+    color: $secondary-color;
+    }
+   }
+
+.text{
+    color: $gray-500;
+
+}
+.section-right{
+    background-size:70%;
+}
+.features{
+    display:flex;
+    direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.features-text{
+    color: $gray-500;
+}
+
+//importando Bootsrtap//
+@import "../node_modules/bootstrap/scss/bootstrap";
